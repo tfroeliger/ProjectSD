@@ -1,4 +1,3 @@
-package sdproject;
 import java.awt.AWTException;
 import java.awt.Point;
 import java.awt.Robot;
@@ -22,7 +21,7 @@ public void centrageSouris(JFrame fenetre){
 }
 
 public void deplacementSouris(JFrame fenetre,int x,int y){
-	  //Permet de déplacer la souris uniquement dans la fenêtre
+	  //Permet de deplacer la souris uniquement dans la fenetre
 	  int width = fenetre.getWidth();
 	  int height = fenetre.getHeight();
 	  Point p = fenetre.getLocationOnScreen();

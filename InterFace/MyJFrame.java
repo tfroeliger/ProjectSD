@@ -56,7 +56,7 @@ public class MyJFrame extends JFrame implements ActionListener{
 
   public void ajoutBouton() {
 	  jpanel1.setLayout(new BoxLayout(jpanel1, BoxLayout.LINE_AXIS));
-	    //À l'ouest
+	    //A l'ouest
 	  jpanel1.add(boutonTriangle);
 	  jpanel1.add(boutonCercle);
 	  jpanel1.add(boutonRectangle);
@@ -148,7 +148,7 @@ public class MyJFrame extends JFrame implements ActionListener{
   
   public class Panneau extends JPanel { 
 	  public void paintComponent(Graphics g){
-	    System.out.println("Je suis exécutée !");
+	    System.out.println("Je suis executee !");
 	    boutonRectangle.draw(g);
 	    boutonTriangle.draw(g);
 	    boutonCercle.draw(g);
